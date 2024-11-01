@@ -1,0 +1,81 @@
+td {
+
+  border: 2px solid black;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+th {
+
+  background-color: rgb(193, 176, 157);
+  border: 5px solid black;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 40px;
+}
+
+table {
+  background-color: bisque;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(167, 62, 62);
+  /* font-size: 20px; */
+}
+
+h1 {
+  background-color: burlywood;
+  text-align: center;
+  border-bottom: 5px solid rgb(104, 95, 95);
+}
+
+
+.space {
+  margin: 10px;
+  width: 10px;
+  height: 1px;
+  background-color: transparent;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+}
+
+button:active {
+  background-color: rgb(101, 97, 97);
+  width: 25px;
+  height: 25px;
+}
+
+.h11 {
+  font-size: 2em;
+  border: 5px solid rgb(104, 95, 95);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h11 img {
+  width: 20px;
+  height: 20px;
+}
+
+.red {
+  border: 5px solid rgb(243, 0, 0)
+}
+
+.redwine {
+  border: 2px solid rgb(243, 0, 0)
+}
+
+#month_id {
+  font-weight: bold;
+}
